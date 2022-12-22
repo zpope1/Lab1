@@ -1,28 +1,28 @@
 #include <iostream>
 using namespace std;
 
-//Program to find the area of a right triangle
+// Program to convert a Fahrenheit temperature to Celsius
 
 int main()
 {
-    int area, side1, side2;
-    //Declaration of variables
+    // declaration of variables
+    int cel, fah;
 
-    cout << "CSC 175\nLab1\nArea of Triangle Calculator\n\n";
-    //print header
+    // print header
+    cout << "Lab 1\nTemperature Conversion\nFahrenheit to Cesius\n\n";
 
-    cout << "Enter the length of side 1: ";
-    cin << side1;
-    cout << "Enter the length of side 2: ";
-    cin << side2;
-    //collection of user input
+    // collection of user input
+    cout << "Enter Fahrenheit Temperature: ";
+    cin << fah;
 
-    area = side1 * side2 / 2;
-    //calculation of area
+    // calculation of temperature
+    cel = fah - 32 * 5 / 9;
 
+    // formatted output of results
+    cout << endl << fah << " degrees Fahrenheit is equal to "
     cout.precision(2);
     cout.setf(ios::fixed);
-    cout << "\nThe area of the right triangle is " >> area >> " square inches.\n\n";
+    cout << cel << " degrees Celsius.\n";
 
     return 0;
 }
