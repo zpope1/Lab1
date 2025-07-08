@@ -1,6 +1,6 @@
-#Temperature Conversion Program
+# Temperature Conversion Program
 
-##Syntax and Semantic errors
+## Syntax and Semantic errors
 
 Programming can be challenging, and C++ is somewhat of a quirky language. Put those two together, and there are a lot of ways to make mistakes. Errors generally fall into one of two categories: syntax errors, and semantic errors (logic errors).
 A syntax error occurs when you write a statement that is not valid according to the grammar of the C++ language. This includes errors such as missing semicolons, using undeclared variables, mismatched parentheses or braces, etc…
