@@ -12,7 +12,7 @@ In this assignment, the errors are fairly easy to spot. But in most non-trivial 
 We will explore these techniques later in the course.
 
 ## Directions
-After accepting the Lab1 assignment, clone your Lab1 repository to your virtual machine, correct the syntax errors and run the program using the Fahrenheit tempature 212.75 as input. The program still has semantic errors that will need to be corrected before you'll get the correct results that match the interface prototype example shown below. Once the program is working coorectly, push it back to your repositiry which will spin up a test of your solution code. Once it has passed the auto-test tou will need to submit it to Canvas under the lab1 assignment.
+After accepting the Lab1 assignment, clone your Lab1 repository to your virtual machine, correct the syntax errors and run the program using the Fahrenheit tempature 212.75 as input. The program still has semantic errors that will need to be corrected before you'll get the correct results that match the interface prototype example shown below. Once the semantic errors are corrected and the program is working correctly, push it back to your repositiry which will spin up a test of your solution code. Once it has passed the auto-test tou will need to submit it to Canvas under the lab1 assignment.
 
 ## Interface Prototype Example
 
